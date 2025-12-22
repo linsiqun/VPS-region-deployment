@@ -22,10 +22,9 @@
 <p style="text-indent:2em;">
 <pre><span class="pl-c"><span class="pl-c">ufw allow Port number     #Release port3</span></span></pre>
 </p>
-<p>
+<p style="text-indent:2em;">
 	<br />
 </p>
-<hr />
 <div class="markdown-heading">
 	<h1 class="heading-element">
 		<strong>Turn off the firewall</strong> 
@@ -44,7 +43,7 @@
 <p style="text-indent:2em;">
 <pre><span class="pl-c"><span class="pl-c">ufw disable    #Turn off the firewall3</span></span></pre>
 </p>
-<p>
+<p style="text-indent:2em;">
 	<br />
 </p>
 <hr />
@@ -54,10 +53,10 @@
 	</h1>
 <a id="user-content-midway-deployment-build-one-click-script" class="anchor" href="https://github.com/linsiqun/VSP-node-deployment#midway-deployment-build-one-click-script"></a> 
 </div>
+<br />
 <p style="text-indent:2em;">
 	<strong>The following command</strong> 
 </p>
-
 <p style="text-indent:2em;">
 <pre><span class="pl-c"><span class="pl-c">Update the system</span></span></pre>
 </p>
@@ -73,7 +72,6 @@
 <p>
 	<br />
 </p>
-<hr />
 <p style="text-indent:2em;">
 	<strong>The following command</strong> 
 </p>
@@ -84,9 +82,6 @@
 <pre><span class="pl-c"><span class="pl-c">wget --no-check-certificate -O gost.sh https://raw.githubusercontent.com/KANIKIG/Multi-EasyGost/master/gost.sh && chmod +x gost.sh && ./gost.sh      #Deploy the final script code</span></span></pre>
 </p>
 <p style="text-indent:2em;">
-	<br />
-</p>
-<p style="text-indent:2em;">
 	The router client replaces the transfer machine IP address and port
 </p>
 <p style="text-indent:2em;">
@@ -94,9 +89,6 @@
 </p>
 <p style="text-indent:2em;">
 	chmod +x gost      #Add executable permissions to the gost file
-</p>
-<p style="text-indent:2em;">
-	<br />
 </p>
 <p style="text-indent:2em;">
 	./gost -L udp://:38420 -L tcp://:38420 -F 
@@ -111,7 +103,7 @@ replacement code
 <p style="text-indent:2em;">
 <pre><span class="pl-c"><span class="pl-c">./gost.sh       #Management script commands</span></span></pre>
 </p>
-<p>
+<p style="text-indent:2em;">
 	<br />
 </p>
 <div class="markdown-heading">
@@ -120,8 +112,9 @@ replacement code
 	</h1>
 <a id="user-content-transfer-midway-one-click-installation-of-nodepass-panel-2025" class="anchor" href="https://github.com/linsiqun/VSP-node-deployment#transfer-midway-one-click-installation-of-nodepass-panel-2025"></a> 
 </div>
+<br />
 <p style="text-indent:2em;">
-	Preparation
+	<strong>Preparation</strong>
 </p>
 <p style="text-indent:2em;">
 	Prepare two VPSs: one for the intermediate server and one for the terminal server.
@@ -132,18 +125,17 @@ replacement code
 <p style="text-indent:2em;">
 	Set up domain name resolution for the intermediate server and the terminal server in advance.
 </p>
-
 <p style="text-indent:2em;">
 	1、Apply for an ：<a href="https://github.com/slobys/docker%E3%80%91">SSL certificate</a> 
+</p>
+<p>
+	<br />
 </p>
 <p style="text-indent:2em;">
 	<strong>The following command</strong> 
 </p>
 <p style="text-indent:2em;">
 <pre><span class="pl-c"><span class="pl-c">bash (curl -fsSL https://raw.githubusercontent.com/slobys/SSL-Renewal/main/acme.sh)    #Deployment Commands</span></span></pre>
-</p>
-<p>
-	<br />
 </p>
 <p style="text-indent:2em;">
 	2、Open Source Projects ：<a href="https://github.com/yosebyte/nodepass%E3%80%91">Nodepass</a> 
@@ -153,6 +145,9 @@ replacement code
 </p>
 <p style="text-indent:2em;">
 	A. Main program installation [Mid-range and terminal installation]
+</p>
+<p>
+	<br />
 </p>
 <p style="text-indent:2em;">
 	<strong>The following command</strong> 
@@ -166,6 +161,9 @@ replacement code
 <p style="text-indent:2em;">
 	B. Deploy Nodepass Panel [Mid-range terminal installation]
 </p>
+<p>
+	<br />
+</p>
 <p style="text-indent:2em;">
 	<strong>The following command</strong> 
 </p>
@@ -178,12 +176,16 @@ replacement code
 <p style="text-indent:2em;">
 	One-click installation script [ terminal installation selection]
 </p>
+<br />
 <p style="text-indent:2em;">
 	<strong>reset password</strong> 
 </p>
 <p style="text-indent:2em;">
 <pre><span class="pl-c"><span class="pl-c">bash <(curl -sSL https://run.nodepass.eu/dash.sh) resetpwd    #reset password</span></span></pre>
 </p>
+<p>
+	<br />
+</p>	
 <p style="text-indent:2em;">
 	<strong>terminal installation selection</strong>
 </p>
@@ -194,13 +196,10 @@ replacement code
 <pre><span class="pl-c"><span class="pl-c">bash (wget -qO- https://raw.githubusercontent.com/fscarmen/sing-box/main/sing-box.sh)    #Sing-Box script</span></span></pre>
 </p>
 <p style="text-indent:2em;">
-	<br />
-</p>
-<p style="text-indent:2em;">
 	4、The router client replaces the transfer machine IP address and port
 </p>
 <p style="text-indent:2em;">
-	==========
+	<br />
 </p>
 <div class="markdown-heading">
 	<h1 class="heading-element">
@@ -217,11 +216,11 @@ replacement code
 <p style="text-indent:2em;">
 <pre><span class="pl-c"><span class="pl-c">bash (curl -fsSL https://raw.githubusercontent.com/Aurora-Admin-Panel/deploy/main/install.sh)    #One-click installation of Aurora panel midway</span></span></pre>
 </p>
-<p>
-	<br />
-</p>
 <p style="text-indent:2em;">
 	The router client replaces the transfer machine IP address and port
+</p>
+<p style="text-indent:2em;">
+	<br />
 </p>
 <hr />
 <div class="markdown-heading">
@@ -248,7 +247,6 @@ replacement code
  <p style="text-indent:2em;">
 <pre><span class="pl-c"><span class="pl-c">source <(curl -L https://github.com/trojanpanel/install-script/raw/main/install_script_standalone.sh)     #Trojan Panel Installation Panel</span></span></pre>
 </p>
-<br />
 <p style="text-indent:2em;">
 	Default login account: sysadmin Default login password: 123456
 </p>
@@ -274,11 +272,10 @@ replacement code
 <pre><span class="pl-c"><span class="pl-c">bash (curl -Ls https://raw.githubusercontent.com/alireza0/s-ui/master/install.sh)      #One-click installation of Sing-Box and Xray panels</span></span></pre>
 </p>
 <p style="text-indent:2em;">
-	<br />
 </p>
 <p style="text-indent:2em;">
+	<br />
 </p>
-<hr />
 <div class="markdown-heading">
 	<h1 class="heading-element">
 		<strong>sb one-click deployment builds sing-box script</strong> 
@@ -293,6 +290,54 @@ replacement code
 </p>
 <p style="text-indent:2em;">
 <pre><span class="pl-c"><span class="pl-c">bash <(wget -qO- https://raw.githubusercontent.com/fscarmen/sing-box/main/sing-box.sh)     #sb one-key script</span></span></pre>
+</p>
+<p style="text-indent:2em;">
+	<br />
+</p>
+<div class="markdown-heading">
+	<h1 class="heading-element">
+		<strong>Hysteria 2 One-Click Script Deployment</strong> 
+	</h1>
+<a id="user-content-sb-one-click-deployment-builds-sing-box-script" class="anchor" href="https://github.com/linsiqun/VSP-node-deployment#sb-one-click-deployment-builds-ysteria2-script"></a>
+</div>
+<p style="text-indent:2em;">
+	<strong>The following command</strong> 
+</p>
+<p style="text-indent:2em;">
+<pre><span class="pl-c"><span class="pl-c">sudo ufw disable    #Turn off the firewall</span></span></pre>
+</p>	
+<p style="text-indent:2em;">
+<pre><span class="pl-c"><span class="pl-c">apt update -y    #Update system</span></span></pre>
+</p>
+<p style="text-indent:2em;">
+<pre><span class="pl-c"><span class="pl-c">wget -N --no-check-certificate https://raw.githubusercontent.com/flame1ce/hysteria2-install/main/hysteria2-install-main/hy2/hysteria.sh && bash hysteria.sh     #Pure Version Hysteria2 One-Click Script</span></span></pre>
+</p>
+<p style="text-indent:2em;">
+<br />
+</p>
+<hr />
+<div class="markdown-heading">
+	<h1 class="heading-element">
+		<strong>Install x-ui-yg panel</strong> 
+	</h1>
+<a id="user-content-install-x-ui-panel" class="anchor" href="https://github.com/linsiqun/VSP-node-deployment#install-x-ui-yg-panel"></a> 
+</div>
+<p style="text-indent:2em;">
+	<strong>The following command</strong>
+</p>
+<p style="text-indent:2em;">
+</p>
+<p style="text-indent:2em;">
+<pre><span class="pl-c"><span class="pl-c">ufw disable    #Turn off the firewall</span></span></pre>
+</p>
+<p style="text-indent:2em;">
+<pre><span class="pl-c"><span class="pl-c">apt update -y    #Update system</span></span></pre>
+</p>
+<p style="text-indent:2em;">
+<pre><span class="pl-c"><span class="pl-c">bash <(wget -qO- https://raw.githubusercontent.com/yonggekkk/x-ui-yg/main/install.sh)       #Install x-ui-yg panel</span></span></pre>
+</p>
+<p style="text-indent:2em;">
+	<br />
 </p>
 <div class="markdown-heading">
 	<h1 class="heading-element">
