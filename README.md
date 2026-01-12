@@ -72,7 +72,7 @@
 	<br />
 </p>
 <p style="text-indent:2em;">
-	<strong>The following command</strong> 
+	One-click installation script
 </p>
 </code></pre>
 <pre class="notranslate"><code>wget -N --no-check-certificate href="https://github.com/ginuerzh/gost/releases/download/v2.11.0/gost-linux-amd64-2.11.0.gz gzip -d gost-linux-amd64-2.11.0.gz     #Deploy one-click script midway</code></pre>
@@ -295,6 +295,9 @@ relay+tls://Terminal:33280 &gt;&gt; /dev/null 2&gt;&amp;1 &amp;
 <pre class="notranslate"><code>sudo ufw disable    #Turn off the firewall</code></pre>
 </code></pre>
 <pre class="notranslate"><code>apt update -y    #Update system</code></pre>
+<p style="text-indent:2em;">
+	One-click installation script
+</p>
 </code></pre>
 <pre class="notranslate"><code>wget -N --no-check-certificate https://raw.githubusercontent.com/flame1ce/hysteria2-install/main/hysteria2-install-main/hy2/hysteria.sh && bash hysteria.sh    #Pure Version Hysteria2 One-Click Script</code></pre>
 <p style="text-indent:2em;">
