@@ -186,9 +186,9 @@ relay+tls://Terminal:33280 &gt;&gt; /dev/null 2&gt;&amp;1 &amp;
 	<strong>terminal installation selection</strong>
 </p>
 </code></pre>
-<pre class="notranslate"><code>bash (curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)    #3X-UI installation panel</code></pre>
+<pre class="notranslate"><code>bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)    #3X-UI installation panel</code></pre>
 </code></pre>
-<pre class="notranslate"><code>bash (wget -qO- https://raw.githubusercontent.com/fscarmen/sing-box/main/sing-box.sh)    #Sing-Box script</code></pre>
+<pre class="notranslate"><code>bash <(wget -qO- https://raw.githubusercontent.com/fscarmen/sing-box/main/sing-box.sh)    #Sing-Box script</code></pre>
 <p style="text-indent:2em;">
 	4、The router client replaces the transfer machine IP address and port
 </p>
@@ -212,7 +212,7 @@ relay+tls://Terminal:33280 &gt;&gt; /dev/null 2&gt;&amp;1 &amp;
 	One-click installation panel
 </p>
 </code></pre>
-<pre class="notranslate"><code>bash (curl -fsSL https://raw.githubusercontent.com/Aurora-Admin-Panel/deploy/main/install.sh)    #One-click installation of Aurora panel midway</code></pre>
+<pre class="notranslate"><code>bash <(curl -fsSL https://raw.githubusercontent.com/Aurora-Admin-Panel/deploy/main/install.sh)    #One-click installation of Aurora panel midway</code></pre>
 <p style="text-indent:2em;">
 	The router client replaces the transfer machine IP address and port
 </p>
@@ -264,12 +264,12 @@ relay+tls://Terminal:33280 &gt;&gt; /dev/null 2&gt;&amp;1 &amp;
 </code></pre>
 <pre class="notranslate"><code>apt update -y &amp;&amp; apt install curl sudo wget git -y    #Debian/Ubuntu system</code></pre>
 </code></pre>
-<pre class="notranslate"><code>bash (curl -fsSL https://raw.githubusercontent.com/slobys/SSL-Renewal/main/acme.sh)      #Apply for an SSL certificate with one click</code></pre>
+<pre class="notranslate"><code>bash <(curl -fsSL https://raw.githubusercontent.com/slobys/SSL-Renewal/main/acme.sh)      #Apply for an SSL certificate with one click</code></pre>
 <p style="text-indent:2em;">
 	One-click installation panel
 </p>
 </code></pre>
-<pre class="notranslate"><code>bash (curl -Ls https://raw.githubusercontent.com/alireza0/s-ui/master/install.sh)      #One-click installation of Sing-Box and Xray panels</code></pre>
+<pre class="notranslate"><code>bash <(curl -Ls https://raw.githubusercontent.com/admin8800/s-ui/main/install.sh)      #One-click installation of Sing-Box and Xray panels</code></pre>
 <p style="text-indent:2em;">
 </p>
 <p style="text-indent:2em;">
@@ -373,7 +373,7 @@ relay+tls://Terminal:33280 &gt;&gt; /dev/null 2&gt;&amp;1 &amp;
 </code></pre>
 <pre class="notranslate"><code>ufw disable    #Turn off the firewall</code></pre>
 </code></pre>
-<pre class="notranslate"><code>bash (curl -Ls href="https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)    #Install x-ui panel</code></pre>
+<pre class="notranslate"><code>bash <(curl -Ls href="https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)    #Install x-ui panel</code></pre>
 <p style="text-indent:2em;">
 	<br />
 </p>
