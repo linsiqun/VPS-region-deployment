@@ -269,7 +269,7 @@ relay+tls://Terminal:33280 &gt;&gt; /dev/null 2&gt;&amp;1 &amp;
 	One-click installation panel
 </p>
 </code></pre>
-<pre class="notranslate"><code>bash (curl -Ls https://raw.githubusercontent.com/alireza0/s-ui/master/install.sh)      #One-click installation of Sing-Box and Xray panels</code></pre>
+<pre class="notranslate"><code>bash (curl -Ls https://raw.githubusercontent.com/admin8800/s-ui/main/install.sh)      #One-click installation of Sing-Box and Xray panels</code></pre>
 <p style="text-indent:2em;">
 </p>
 <p style="text-indent:2em;">
